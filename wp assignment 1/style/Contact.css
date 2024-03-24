@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap");
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: inherit;
+  font-style: normal;
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: inherit;
+  font-style: normal;
+}
+
+:root {
+  --img-height: 90vh;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  position: absolute;
+  top: 10%;
+  right: 64.5%;
+  width: 25%;
+}
+
+.title {
+  position: relative;
+  font-family: "Nunito";
+  left: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+  padding-bottom: 40px;
+}
+
+.container > ul > li {
+  font-family: "Nunito";
+  position: relative;
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+
+.container > ul {
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero4 {
+  position: absolute;
+  top: calc((100vh - var(--img-height)) / 2) -4px;
+  right: 0;
+}
+
+.email {
+  position: relative;
+  width: 80%;
+}
+
+.name {
+  position: relative;
+  width: 80%;
+}
+
+.message {
+  position: relative;
+  width: 80%;
+  height: 40vh;
+  resize: none;
+}
+
+.container2 {
+  position: absolute;
+  top: 30%;
+  right: 30.5%;
+  width: 20%;
+  font-family: "Caveat";
+  font-size: 40px;
+}
+
+.insta {
+  width: 20%;
+  height: 20%;
+}
+
+.github {
+  width: 20%;
+  height: 20%;
+}
+
+.kakaotalk {
+  width: 20%;
+  height: 20%;
+}
+
+/*# sourceMappingURL=Contact.css.map */
