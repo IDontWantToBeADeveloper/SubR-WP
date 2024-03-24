@@ -22,11 +22,6 @@ ul li {
   position: relative;
 }
 
-body {
-  height: 5000px;
-  background-color: #444;
-}
-
 :root {
   --menubar-width: 270px;
   --menubar-height: 90vh;
