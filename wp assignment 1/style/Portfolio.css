@@ -10,22 +10,11 @@
   --img-height: 90vh;
 }
 
-body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   position: absolute;
   top: 10%;
   right: 600px;
   width: 50%;
-}
-
-.parttime {
-  font-weight: 650;
 }
 
 .title {
@@ -43,7 +32,7 @@ body {
 .container > ul {
   font-family: "Nunito";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .container > ul > li {
@@ -57,10 +46,10 @@ span {
   background-color: skyblue;
 }
 
-.hero {
+.hero2 {
   position: absolute;
   top: calc((100vh - var(--img-height)) / 2) -4px;
   right: 0;
 }
 
-/*# sourceMappingURL=Homepage.css.map */
+/*# sourceMappingURL=Portfolio.css.map */

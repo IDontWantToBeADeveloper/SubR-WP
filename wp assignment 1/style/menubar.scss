@@ -1,8 +1,17 @@
-/* ul li태그에 리스트 스타일을 없앰 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+.nunito{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: inherit;
+    font-style: normal;
+}
+
 ul li{
 	list-style: none;
 }
-/* a태그에 텍스트 밑줄을 없애고 색상을 #333 */
+
 .menubar > ul > li > a {
 	margin: 0;
 	padding: 0;
@@ -13,7 +22,8 @@ ul li{
 	font-weight: bold;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 50px;
+	padding-left: 20px;
+	font-family: "Nunito";
 }
 
 .menubar > ul > li {
@@ -24,29 +34,34 @@ ul li{
 
 :root {
 	--menubar-width: 270px;
-	--menubar-height: 90vh;
+	--menubar-height: 100vh;
 }
 
 .menubar {
-	position: fixed;    /* 스크롤을 따라오도록 지정 */
-	background-color: black;
+	position: fixed;    
+	background-color: rgb(51, 57, 228);
 	width: var(--menubar-width);
-	min-height: var(--menubar-height);   /* 사이드바의 높이를 전체 화면 높이의 90%로 지정 */
-	margin-top: calc((100vh - var(--menubar-height)) / 2);    /* 사이드바 위와 아래의 마진을 동일하게 지정 */
+	min-height: var(--menubar-height); 
+	margin-top: calc((100vh - var(--menubar-height)) / 2);
 }
   
 .menubar > ul > li:hover {
-	background-color: #555;
+	background-color: #2795f6;
 	border-bottom: 1px solid #999;
 }
 
 .menubar {
 	border-radius: 20px;
-	transform: translate(calc(var(--menubar-width) * -0.8), 0);  /* X축 이동, Y축 고정 */
+	transform: translate(calc(var(--menubar-width) * -0.8), 0);
 	transition: .5s;
 }
   
 .menubar:hover {
-	transform: translate(-20px, 0);   /* 둥근 모서리의 너비만큼 X축 이동, Y축 고정 */
+	transform: translate(-20px, 0);
+}
+
+.menu{
+    margin-left: 50px;
+	margin-top: 10px;
 }
 
