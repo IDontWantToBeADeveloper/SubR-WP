@@ -36,6 +36,7 @@
 }
 
 .container > ul > li {
+  font-family: "Nunito";
   position: relative;
   font-size: 35px;
   font-weight: 500;
